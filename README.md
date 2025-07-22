@@ -1,0 +1,7 @@
+echo "# new-repo-text" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/integralfunction/new-repo-text.git
+git push -u origin main
